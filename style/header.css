@@ -1,0 +1,82 @@
+.top-header{
+  display: flex;
+  align-items: center;
+  background-color: var(--header-top-color);
+  height: 58px;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  padding-left: 20%;
+  letter-spacing: 1px;
+  
+}
+.tph-location-icon{
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+.tph-clock-icon {
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  margin-right: 8px;
+}
+ .tph-1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 5px;
+ }
+ .tph-2 {
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+ }
+ .tph-3 {
+  color: rgb(226, 120, 21);
+  margin-left: px;
+
+ }
+
+
+
+ .bottom-header {
+  height: 97PX;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  padding-left: 13%;
+  width: 100%;
+ }
+ .left-section {
+  display: flex;
+  align-items: center;
+ }
+ .middle-section {
+  margin-left: 50px;
+ }
+ .middle-section ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+ }
+ .middle-section ul li{
+  padding: 5px 10px;
+  font-size: 16px;
+  color: var(--header-top-color);
+  font-weight: bold;
+ }
+ .icon-1{
+  height: 150px;
+ }
+ .icon-2{
+  width: 260px;
+ }
+.right-section button{
+  padding:12px 25px;
+  border-radius: 40px;
+  font-size: 16px;
+  background-color: tomato;
+  border: none;
+  color: white;
+}

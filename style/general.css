@@ -1,0 +1,16 @@
+:root {
+  --header-top-color: rgb(7, 29, 69);
+  --header-bottom-color: rgb(255, 255, 255);
+}
+*{
+  padding: 0;
+  margin: 0;
+  font-family: montserrat, sans-serif;
+}
+body {
+    zoom: 75%;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    pointer-events: none;
+    user-select: none;
+}

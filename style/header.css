@@ -1,82 +1,87 @@
-.top-header{
+.top-header {
   display: flex;
   align-items: center;
-  background-color: var(--header-top-color);
-  height: 58px;
+  justify-content: center;
   width: 100%;
+  height: 3.3vw; 
+  background-color: var(--header-top-color, #001533);
+  flex-wrap: nowrap;
+  padding: 0 1vw;
+  box-sizing: border-box;
+  padding-left: 6vw;
+}
+
+.top-header p {
   color: white;
-  font-size: 16px;
-  padding-left: 20%;
-  letter-spacing: 1px;
-  
+  display: flex;
+  align-items: center;
+  font-size: 0.9vw; 
+  white-space: nowrap;
+  margin-left: 0.39vw;
 }
-.tph-location-icon{
-  width: 25px;
-  height: 25px;
-  margin-right: 8px;
-}
+
+.tph-location-icon,
 .tph-clock-icon {
-  width: 25px;
-  height: 25px;
-  margin-left: 20px;
-  margin-right: 8px;
+  width: 1.8vw;
+  padding:0 0.4vw;
+  margin-left: .8vw;
+
 }
- .tph-1 {
-  font-size: 16px;
-  font-weight: bold;
-  margin-right: 5px;
- }
- .tph-2 {
-  font-size: 20px;
-  margin-left: 20px;
-  font-weight: bold;
- }
- .tph-3 {
-  color: rgb(226, 120, 21);
-  margin-left: px;
+.tph-2 {margin-left: 0.8vw;}
+.tph-1 { font-size: 1.1vw; font-weight: 600; padding-right: 0.39vw;}
+.tph-2, .tph-4 { font-size: 1.1vw; font-weight: 600; color: rgb(226, 121, 21); }
+.tph-3 { font-size: 1.1vw; font-weight: 600; padding:0 0.4vw; }
 
- }
-
-
-
- .bottom-header {
-  height: 97PX;
-  background-color: rgb(255, 255, 255);
+/*  Bottom header start   */
+.bottom-header {
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding-left: 13%;
   width: 100%;
- }
- .left-section {
+  height: 9vh;
+}
+.bth-left {
   display: flex;
   align-items: center;
- }
- .middle-section {
-  margin-left: 50px;
- }
- .middle-section ul{
+}
+.logo img{
+    height: 12.5vh;
+    margin-right: -0.6vw;
+}
+.logo-caption h6{
+  font-family: "Pirata One", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(8, 26, 56);
+  font-size: 2.1vw;
+  font-weight: 100;
+}
+.logo-caption p {
+  font-family: "Graduate", serif;
+  font-size: 0.6vw;
+  color: #e27915;
+}
+.bth-right {
   display: flex;
   align-items: center;
+  padding-left: 3vw;
+}
+
+.bth-right ul{
+  display: flex;
   list-style: none;
-  justify-content: space-between;
- }
- .middle-section ul li{
-  padding: 5px 10px;
-  font-size: 16px;
-  color: var(--header-top-color);
-  font-weight: bold;
- }
- .icon-1{
-  height: 150px;
- }
- .icon-2{
-  width: 260px;
- }
-.right-section button{
-  padding:12px 25px;
-  border-radius: 40px;
-  font-size: 16px;
-  background-color: tomato;
-  border: none;
-  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.bth-right ul li {
+  padding: 0 0.5vw;
+  color: rgb(8, 26, 56);
+  font-size: .75vw;
+  font-weight: 600;
+}
+.bth-right .btn {
+  padding: .7vw 1.5vw;
+  background-color: #cf640c;
+  border-radius: 9vw;
+  font-size: 0.9vw;
+  color: #fff;
+  margin-left: 1vw;
 }

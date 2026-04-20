@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 3.3vw; 
+  height: 3vw; 
   background-color: var(--header-top-color, #001533);
   flex-wrap: nowrap;
   padding: 0 1vw;
@@ -38,14 +38,14 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 9vh;
+  height: 4.5vw;
 }
 .bth-left {
   display: flex;
   align-items: center;
 }
 .logo img{
-    height: 12.5vh;
+    height: 5.9vw;
     margin-right: -0.6vw;
 }
 .logo-caption h6{

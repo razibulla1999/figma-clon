@@ -1,3 +1,5 @@
+/* ----Header Section start---- */
+
 .top-header {
   display: flex;
   align-items: center;
@@ -86,3 +88,4 @@
   color: #fff;
   margin-left: 1vw;
 }
+/* ----Header Section start---- */

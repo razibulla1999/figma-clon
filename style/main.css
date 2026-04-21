@@ -1,3 +1,4 @@
+/* ----Hero Section start---- */
 .hero-section {
   height: 42vw;
   position: relative;
@@ -84,8 +85,9 @@
   width: 13vw;
   height: 13vw;
 }
+/* ----Hero Section end---- */
 
-
+/* ----Repair Section start---- */
 .repair-section {
   display: flex;
   justify-content: center;
@@ -134,20 +136,20 @@
   cursor: pointer;
   margin-top: 1.8vw;
 }
-/*  Repair Section End */
+/*  ----Repair Section End----- */
 
 
-
+/* ----problem Section start---- */
 .problems-section {
     padding: 5vw 0 10vw 0;
     text-align: center;
-    background-color: #f4f7f9;
-    width: 100vw;
+    background-color: #e6e6e67e;
+    width: 100%;
 }
 
-.main-title {
+.problems-section h2 {
     font-size: 2.6vw; 
-    color: #030f2c;
+    color: rgb(11, 11, 77);
     font-weight: 700;
     margin-bottom: 2vw;
 }
@@ -216,7 +218,7 @@
     justify-content: center;
     align-items: center;
 }
-
+/* ----Problem Section start---- */
 
 /*  Military-Offer */
 .military-offer {
@@ -254,6 +256,9 @@
   top: 1.2vw;
   right: 13vw;
   z-index: 3;
+}
+.m-logo img {
+  width: 16vw;
 }
 .m-content {
     position: absolute;
@@ -337,11 +342,11 @@ h1 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease;
 }
+/* ----military Section start---- */
 
 
 
-
-
+/* ----service Section start---- */
 .service-main-container {
   background-color: #0f1338;
   height: 48vw;
@@ -428,6 +433,321 @@ h1 {
     font-size: 0.9vw;
     font-weight: bold;
     border-radius: 2vw;
-    cursor: pointer;
     box-shadow: 0 0.3vw 0.6vw rgba(0,0,0,0.2);
+}
+/* ----service Section end---- */
+
+
+
+
+/* ----Testimonial Section Start---- */
+.testimonial-section {
+    text-align: center;
+    height: 50vw;
+    padding-top: 5vw;
+    position: relative;
+}
+
+.sub-title {
+    color: #f36d38;
+    font-size: 1.1vw;
+    font-weight: bold;
+    margin-bottom: 0.8vw;
+}
+
+.main-title {
+    color: #0c1c3c;
+    font-size: 2vw;
+    font-weight: 800;
+    margin-bottom: 1.5vw;
+    
+}
+
+.grey-container-box {
+    background-color: #f2f2f2; 
+    padding: 5vw 0;
+    margin: 2vw 0;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+
+}
+
+.testi-card {
+    background: white;
+    padding: 2vw;
+    width: 18.2vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.testi-card p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .85vw;
+}
+
+.review-text {
+    font-size: 0.85vw;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 2vw;
+}
+
+.user-info strong {
+    font-size: 0.95vw;
+    color: #0c1c3c;
+    display: block;
+}
+
+.stars {
+    color: #ffb400;
+    font-size: 1vw;
+    margin-top: 0.3vw;
+}
+
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.6vw;
+    position: absolute;
+    bottom: 8vw;
+    left: 45%;
+    z-index: 5;
+}
+
+.dot {
+    height: 0.7vw;
+    width: 0.7vw;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.dot.active {
+    background-color: #f36d38; 
+}
+/* ----Testimonial Section Start---- */
+
+
+
+
+
+
+/* ----HVAC Section Start---- */
+/* Body তে কোনো CSS ব্যবহার করা হয়নি */
+
+.hvac-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.9vw;
+    font-family: sans-serif;
+    height: 40vw;
+
+}
+
+.image-side {
+
+}
+
+.image-side img {
+    width: 33vw;
+    margin-top: 1.3vw;
+}
+
+.content-side {
+
+}
+
+.heading {
+    color: #0c1c3c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2vw;
+    font-weight: 800;
+    margin-bottom: 1vw;
+    text-transform: uppercase;
+    line-height: 1.15;
+}
+
+.description {
+    color: #555555;
+    font-size: .8vw;
+
+    margin-bottom: 1vw;
+}
+
+
+
+.contact-info {
+    color: #333333;
+    font-size: .8vw;
+    font-weight: bold;
+
+}
+/* ----HVAC Section End---- */
+
+
+
+
+
+/* Body তে কোনো CSS নেই */
+
+.service-booking-area {
+    position: relative;
+    width: 100vw;
+    height: 48vw; /* আপনার ছবির উচ্চতা অনুযায়ী অ্যাডজাস্ট করতে পারেন */
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* পুরো কন্টেন্টকে মাঝখানে আনার জন্য */
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* HTML ইমেজটিকে ব্যাকগ্রাউন্ড হিসেবে পজিশন করা */
+.bg-img-fixed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+/* কালো ঝাপসা ওভারলে */
+.dark-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.72);
+    z-index: -1;
+}
+
+.inner-content-wrapper {
+    display: flex;
+    width: 85vw; /* কন্টেন্ট এরিয়া স্ক্রিনের ৮৫% জায়গা নিবে */
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+/* বাম পাশের স্টাইল */
+.left-info-panel {
+    color: white;
+    flex: 1;
+}
+
+.main-heading-text {
+    font-size: 2.8vw;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 2vw;
+}
+
+.intro-paragraph {
+    font-size: 0.95vw;
+    line-height: 1.5;
+    margin-bottom: 3vw;
+    opacity: 0.9;
+}
+
+.brand-title {
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-bottom: 0.5vw;
+}
+
+.phone-highlight {
+    font-size: 2.2vw;
+    font-weight: 800;
+    margin-bottom: 1vw;
+}
+
+.orange-span {
+    color: #ff5e14;
+}
+
+.work-schedule {
+    font-size: 1.1vw;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.sub-schedule {
+    font-weight: normal;
+    font-size: 1vw;
+}
+
+/* ডান পাশের ফর্মের স্টাইল */
+.right-form-panel {
+    flex: 0.8;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.booking-white-card {
+    background-color: #ffffff;
+    padding: 2.5vw;
+    width: 32vw;
+    border-radius: 0.4vw;
+    text-align: center;
+}
+
+.card-main-title {
+    color: #ff5e14;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+.card-sub-title {
+    font-size: 0.85vw;
+    margin: 0.6vw 0 1.8vw 0;
+    color: #333;
+}
+
+.dual-input-row {
+    display: flex;
+    gap: 1vw;
+    margin-bottom: 1vw;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.8vw;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 0.9vw;
+    outline: none;
+}
+
+.single-block-input {
+    margin-bottom: 1vw;
+}
+
+textarea {
+    height: 5vw;
+    resize: none;
+}
+
+.form-submit-btn {
+    background-color: #ff5e14;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 1.2vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.3vw;
+    transition: 0.3s;
+}
+
+.form-submit-btn:hover {
+    background-color: #e54e00;
 }
